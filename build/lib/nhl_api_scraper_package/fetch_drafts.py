@@ -2,7 +2,7 @@ from utils import fetch_nhl_api
 
 
 # ======== helper functions ========
-def parse_for_original_owner(draft_history: str):
+def parse_for_original_owner(history: str):
     """
     Extract the original owning team from NHL API's teamPickHistory field.
     

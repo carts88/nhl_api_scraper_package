@@ -1,0 +1,2 @@
+[console_scripts]
+nhl-scraper = nhl_scraper:main
