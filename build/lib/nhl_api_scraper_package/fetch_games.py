@@ -1,4 +1,4 @@
-from utils import fetch_nhl_api
+from .utils import fetch_nhl_api
 
 api_url = 'https://api-web.nhle.com/v1/gamecenter/2023020204/play-by-play'
 

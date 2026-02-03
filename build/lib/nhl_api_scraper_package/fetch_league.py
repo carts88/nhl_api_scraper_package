@@ -1,4 +1,4 @@
-from utils import fetch_nhl_api
+from .utils import fetch_nhl_api
 
 def fetch_standings(date):
     """Fetch the current NHL standings from the NHL records API
@@ -53,3 +53,5 @@ def fetch_all_franchises():
     print(f"Fetching all NHL franchises")
     api_url = 'https://api.nhle.com/stats/rest/en/franchise'
     return fetch_nhl_api(api_url)
+
+

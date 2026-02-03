@@ -1,4 +1,4 @@
-from utils import fetch_nhl_api
+from .utils import fetch_nhl_api
 
 
 def fetch_player_info(player_id):

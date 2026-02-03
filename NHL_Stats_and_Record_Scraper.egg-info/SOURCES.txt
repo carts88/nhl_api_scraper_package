@@ -3,7 +3,6 @@ setup.py
 NHL_Stats_and_Record_Scraper.egg-info/PKG-INFO
 NHL_Stats_and_Record_Scraper.egg-info/SOURCES.txt
 NHL_Stats_and_Record_Scraper.egg-info/dependency_links.txt
-NHL_Stats_and_Record_Scraper.egg-info/entry_points.txt
 NHL_Stats_and_Record_Scraper.egg-info/requires.txt
 NHL_Stats_and_Record_Scraper.egg-info/top_level.txt
 nhl_api_scraper_package/__init__.py
@@ -14,3 +13,8 @@ nhl_api_scraper_package/fetch_player.py
 nhl_api_scraper_package/fetch_staff.py
 nhl_api_scraper_package/string_utils.py
 nhl_api_scraper_package/utils.py
+nhl_stats_and_record_scraper.egg-info/PKG-INFO
+nhl_stats_and_record_scraper.egg-info/SOURCES.txt
+nhl_stats_and_record_scraper.egg-info/dependency_links.txt
+nhl_stats_and_record_scraper.egg-info/requires.txt
+nhl_stats_and_record_scraper.egg-info/top_level.txt

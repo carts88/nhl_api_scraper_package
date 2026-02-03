@@ -1,4 +1,4 @@
-from utils import fetch_nhl_api
+from .utils import fetch_nhl_api
 
 # ────────────────────────────────────────────────
 # Specific fetch functions (minimal)
