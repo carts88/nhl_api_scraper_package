@@ -6,12 +6,13 @@ with open('README.md', encoding='utf-8') as fh:
 
 setup(
     name="nhl_stats_and_record_scraper",
-    version="0.3.0",
+    version="0.4.0",
     packages=find_packages(),
     long_description=long_description,
     long_description_content_type="text/markdown",
     install_requires=[
         "requests",
-        "logging"
+        "logging",
+        "sys"
     ],
 )

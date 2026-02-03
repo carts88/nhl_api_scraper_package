@@ -1,6 +1,5 @@
-from .utils import fetch_nhl_api
+from utils import fetch_nhl_api
 
-api_url = 'https://api-web.nhle.com/v1/gamecenter/2023020204/play-by-play'
 
 # REGULAR SEASON GAMES
 # PART 1 = First 4 Digits of SeasonId EX: 20232024 would be 2023
@@ -62,13 +61,20 @@ def get_regular_season_game_ids(season: int):
 
 # Fetch game specific data
 
+def fetch_wsc_play_by_play(game_id):
+    """Fetch play-by-play data for a specific game from the NHL records API"""
+    print(f"Fetching play-by-play data for game ID: {game_id}")
+
+    api_url = f'https://api-web.nhle.com/v1/wsc/play-by-play/{game_id}/'
+    return fetch_nhl_api(api_url)
+
+
 def fetch_play_by_play(game_id):
     """Fetch play-by-play data for a specific game from the NHL records API"""
     print(f"Fetching play-by-play data for game ID: {game_id}")
 
     api_url = f'https://api-web.nhle.com/v1/gamecenter/{game_id}/play-by-play'
     return fetch_nhl_api(api_url)
-
 
 def fetch_shift_charts(game_id):
     """Fetch shift charts data for a specific game from the NHL records API"""
@@ -93,6 +99,6 @@ def fetch_daily_scores(date):
     return fetch_nhl_api(api_url)
 
 
-game_id = 2023020204
-data = fetch_shift_charts(game_id)
-print(len(data['data']))
+print(fetch_play_by_play(2022020601))
+
+

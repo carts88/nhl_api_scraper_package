@@ -53,5 +53,3 @@ def fetch_all_franchises():
     print(f"Fetching all NHL franchises")
     api_url = 'https://api.nhle.com/stats/rest/en/franchise'
     return fetch_nhl_api(api_url)
-
-

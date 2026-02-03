@@ -1,6 +1,9 @@
 import requests
 import logging
 
+import sys
+sys.stdout.reconfigure(encoding='utf-8')
+
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("nhl_api")
 

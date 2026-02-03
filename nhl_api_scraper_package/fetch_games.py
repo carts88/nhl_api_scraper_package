@@ -99,6 +99,3 @@ def fetch_daily_scores(date):
     print(f"Fetching daily scores for date: {date}")
     api_url = f'https://api-web.nhle.com/v1/score/' + date
     return fetch_nhl_api(api_url)
-
-
-print(fetch_play_by_play(2022020601))

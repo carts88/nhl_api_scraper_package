@@ -1,10 +1,11 @@
 Metadata-Version: 2.4
 Name: nhl_stats_and_record_scraper
-Version: 0.2.0
+Version: 0.4.0
 Description-Content-Type: text/markdown
 License-File: LICENSE.txt
 Requires-Dist: requests
 Requires-Dist: logging
+Requires-Dist: sys
 Dynamic: description
 Dynamic: description-content-type
 Dynamic: license-file
